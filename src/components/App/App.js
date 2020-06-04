@@ -5,7 +5,7 @@ import SearchBar from '../SearchBar/SearchBar';
 
 const business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
-  name: 'MarginOtto Pizzeria',
+  name: 'Lucas Pizzeria',
   address: '1010 Paddington Way',
   city: 'Flavortown',
   state: 'NY',
@@ -31,7 +31,7 @@ class App extends React.Component {
                 <h1>ravenous</h1>
                 <SearchBar />
                 <BusinessList 
-                    business={businesses} />
+                    businesses={businesses} />
             </div>
         );
     }
