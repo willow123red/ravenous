@@ -1,4 +1,4 @@
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = /*Place your api key here sourced from yelp*/
 
 const Yelp = {
     search(term, location, sortBy) {
